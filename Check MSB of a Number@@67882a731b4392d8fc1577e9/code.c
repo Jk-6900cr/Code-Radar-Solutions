@@ -5,6 +5,6 @@ int main(){
     if(a&(1<<31)){
         printf("Set");
     }else{
-        printf("Non Set");
+        printf("Not Set");
     }
 }
