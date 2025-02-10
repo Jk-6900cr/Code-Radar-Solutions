@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<bits;i++){
         if((a&1)==0){
             count+=1;
-            a=(a>>1);
+            a=(a>>1)&1;
         }
         else{
             break;
