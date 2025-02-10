@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main(){
-    int num;
-    scanf("%d",&num);
+    int a;
+    scanf("%d",&a);
     int count=0;
-    while((num&1)==0){
+    while((a&1)==0){
+        a>>=1;
+  
         count+=1;
-        num>>=1;
+        
     }
     printf("%d",count);
 }
