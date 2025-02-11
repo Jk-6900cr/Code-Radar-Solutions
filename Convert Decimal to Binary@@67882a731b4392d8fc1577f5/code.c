@@ -1,5 +1,12 @@
 #include<stdio.h>
 void printBinary(int num){
+    if (num==0){
+        printf("0\n");
+        return;
+    }
+
+
+
     int started = 0;
     for (int i=31; i>=0;i--){
         int bit = (num>>i)&1;
@@ -16,5 +23,5 @@ int main(){
     int num;
     scanf("%d",&num);
     printBinary(num);
-    
+
 }
