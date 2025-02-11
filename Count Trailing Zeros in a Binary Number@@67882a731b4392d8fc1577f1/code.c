@@ -10,5 +10,5 @@ int count_zeros(int num){
 int main(){
     int num;
     printf("%d\n",count_zeros(num);
-    scanf("%d",&num);)
+    scanf("%d",&num);
 }
