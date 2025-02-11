@@ -1,5 +1,5 @@
 #include<stdio.h>
-int count_zeros(int num){
+int count_zeros(num){
     int count = 0;
     while(num>0 && (num&1)==0){
         count++;
@@ -10,5 +10,5 @@ int count_zeros(int num){
 int main(){
     int num;
     scanf("%d",&num);
-    printf("%d",count_zeros(int num));
+    printf("%d",count_zeros(num));
 }
