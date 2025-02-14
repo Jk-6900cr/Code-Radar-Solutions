@@ -5,6 +5,6 @@ int main(){
     if(a*a + b*b == c*c){
         printf("Valid");
     }else{
-        printf("Invalid")
+        printf("Invalid");
     }
 }
