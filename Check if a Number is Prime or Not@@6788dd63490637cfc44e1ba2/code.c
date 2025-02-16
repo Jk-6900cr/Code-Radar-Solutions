@@ -11,6 +11,6 @@ int main(){
         }
         
     }
-    printf("Prime");
+    printf("Prime\n");
 }
     
