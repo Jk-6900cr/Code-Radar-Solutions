@@ -39,9 +39,6 @@ int main(){
         case 12:
         printf("31");
         break;
-        case 1:
-        printf("31");
-        break;
         default :
         printf("Invalid");
         break;
