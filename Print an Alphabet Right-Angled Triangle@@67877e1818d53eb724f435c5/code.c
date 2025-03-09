@@ -7,6 +7,7 @@ void printNumberTriangle(int N){
             if(j<i){
                 printf(" ");
             }
+            ch++;
         }
         printf("\n");
     }
