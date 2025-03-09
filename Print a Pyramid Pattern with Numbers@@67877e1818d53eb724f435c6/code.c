@@ -13,5 +13,6 @@ void printNumberPyramid(int N){
 }
 int main(){
     int N;
+    scanf("%d",&N);
     printNumberPyramid(N);
 }
