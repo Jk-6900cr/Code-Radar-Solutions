@@ -9,6 +9,6 @@ void printNumberTriangle(int N){
 }
 int main(){
     int N;
-    scanf("%d",&N);
+    scanf("%d", &N);
     printNumberTriangle(N);
 }
