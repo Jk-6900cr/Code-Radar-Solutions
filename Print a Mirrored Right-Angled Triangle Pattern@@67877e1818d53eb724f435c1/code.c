@@ -10,7 +10,7 @@ void printTriangle(int N){
         printf("\n");
     }
 }
-int main(){
+int main() {
     int N;
     scanf("%d",&N);
     printTriangle(N);
