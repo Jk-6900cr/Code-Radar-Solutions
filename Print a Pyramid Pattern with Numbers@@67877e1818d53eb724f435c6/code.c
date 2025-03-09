@@ -6,9 +6,7 @@ void printNumberPyramid(int N){
         }
         for (int k=1; k<=i; k++){
             printf("%d",k);
-            if(k<i){
-                printf(" ");
-            }
+            
         }
         printf("\n");
     }
