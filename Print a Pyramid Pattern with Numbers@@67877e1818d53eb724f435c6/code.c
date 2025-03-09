@@ -9,7 +9,7 @@ void printNP(int N){
             if(k<i){
                 printf(" ");
             }
-        }.printf("\n");
+        }printf("\n");
     }
 }
 int main(){
