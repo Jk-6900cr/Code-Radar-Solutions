@@ -1,5 +1,5 @@
 #include<stdio.h>
-void printNP(int N){
+void printNumberPyramid(int N){
     for (int i=1; i<=N; i++){
         for(int j=1; j<=N-i ; j++){
             printf(" ");
@@ -15,5 +15,5 @@ void printNP(int N){
 }
 int main(){
     int N;
-    printNP(N);
+    printNumberPyramid(N);
 }
