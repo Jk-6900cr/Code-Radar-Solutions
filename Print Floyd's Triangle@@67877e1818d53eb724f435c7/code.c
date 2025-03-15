@@ -6,7 +6,7 @@ void floyds_triangle(int N){
             printf("%d",num);
             if(j!=i)
             printf(" ");
-            num++
+            num++;
         }
         printf("\n");
     }
