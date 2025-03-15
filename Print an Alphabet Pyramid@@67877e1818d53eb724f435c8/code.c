@@ -2,7 +2,7 @@
 void alphabet_pyramid(int N){
 
     for (int i=0;i<N;i++){
-        for (int j=0;j<=1;j++){
+        for (int j=0;j<=i;j++){
             printf("%c",'A' + j);
             if(j!=i)
             printf(" ");
