@@ -10,11 +10,3 @@ int isPrime(int n){
     }
     return 1;
 }
-int main(){
-    int t, num;
-    scanf("%d",&t);
-    for (int i =0; i<t;i++){
-        scanf("%d",&num);
-        printf("%d\n",isPrime(num));
-    }
-}
