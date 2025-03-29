@@ -13,7 +13,7 @@ int isPrime(int n){
 }
 int main(){
     int t;
-    scanf("%d",&t);
+    
     while(t--){
         int num;
         scanf("%d",&num);
