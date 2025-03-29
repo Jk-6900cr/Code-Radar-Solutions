@@ -1,14 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-int main(){
-    int t, num;
-    scanf("%d",&t);
-    for (int i =0; i<t;i++){
-        scanf("%d",&num);
-        printf("%d\n",isPrime(num));
-    }
-}
+
 int isPrime(int n){
     if(n<2)
     return 0;
@@ -17,4 +10,13 @@ int isPrime(int n){
         return 0;
     }
     return 1;
+}
+
+int main(){
+    int t, num;
+    scanf("%d",&t);
+    for (int i =0; i<t;i++){
+        scanf("%d",&num);
+        printf("%d\n",isPrime(num));
+    }
 }
